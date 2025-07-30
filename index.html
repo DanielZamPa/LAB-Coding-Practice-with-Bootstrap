@@ -13,7 +13,7 @@
 <body>
     <nav class="navbar navbar-expand-lg bg-body-tertiary">
         <div class="container-fluid">
-            <a class="navbar-brand" href="#">Navbar</a>
+            <a class="navbar-brand" href="./index.html">Navbar</a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
@@ -22,10 +22,10 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link" aria-current="page" href="#">Inicio</a>
+                        <a class="nav-link" aria-current="page" href="./index.html">Inicio</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="#">Tareas</a>
+                        <a class="nav-link" href="./paginas/Lista.html">Tareas</a>
                     </li>
                     <li class="nav-item" href="#">
                         <a class="nav-link" href="#">Agregar</a>
@@ -35,52 +35,40 @@
         </div>
     </nav>
     <main>
-        <br>
-        <div class="card">
-            <div class="card-header">
-                Lista de tareas
-            </div>
-            <div class="card-body">
-                <section class="to_do">
-                    <ul class="list-group">
-                        <li class="list-group-item">
-                            <input class="form-check-input me-1" type="checkbox" id="firstCheckbox">
-                            <label class="form-check-label" for="firstCheckbox">First checkbox</label>
-                        </li>
-                    </ul>
-                </section>
-                <br>
-                <section class="formulario">
-                    <!-- Button trigger modal -->
-                    <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-                        Agregar tarea
-                    </button>                    
-                        <!-- Modal -->
-                        <div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel"
-                            aria-hidden="true">
-                            <div class="modal-dialog">
-                                <div class="modal-content">
-                                    <div class="modal-header">
-                                        <h1 class="modal-title fs-5" id="exampleModalLabel">Agregar Tarea</h1>
-                                        <button type="button" class="btn-close" data-bs-dismiss="modal"
-                                            aria-label="Close"></button>
-                                    </div>
-                                    <div class="modal-body">
-                                        <div class="input-group">
-                                            <span class="input-group-text">Ingrese la tarea</span>
-                                            <textarea class="form-control" aria-label="With textarea"></textarea>
-                                        </div>
-                                    </div>
-                                    <div class="modal-footer">
-                                        <button type="button" class="btn btn-secondary"
-                                            data-bs-dismiss="modal">Cerrar</button>
-                                        <button type="button" class="btn btn-primary">Guardar</button>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>                    
-                </section>
-            </div>
+        <h1> ✨ Bienvenido a tu lista de tareas</h1>
+        <figcaption class="blockquote-footer">
+            – Organiza tu día, alcanza tus metas
+        </figcaption>
+        <div class="container-lg">
+            <p>
+                Es pagina es una herramienta web sencilla, intuitiva y eficaz diseñada para ayudarte a organizar tus
+                actividades diarias. Ya sea que estés trabajando, estudiando o simplemente buscando ser más productivo,
+                esta
+                plataforma te permite tener todo bajo control.
+            </p>        
+            <p>        
+                <h2>✅ ¿Qué puedes hacer en tu lista?</h2> 
+
+                <p> Crear tareas: Añade todas las tareas que necesites completar en el día.</p>
+                <p> Marcar como completadas: Una vez termines una tarea, márcala como realizada y siente la
+                satisfacción del progreso.</p>
+                <p> Editar o eliminar tareas: ¿Cambió algo? Puedes modificar o eliminar tareas en cualquier momento.</p>
+                <p> Interfaz clara y minimalista: Diseñada para que te concentres en lo importante, sin distracciones.</p>                
+
+                <h2>🛠️ ¿Cómo funciona?</h2>
+
+                1. Agregar tarea: En la parte superior de la página encontrarás un campo para escribir tu tarea. Haz
+                clic en "Agregar" y aparecerá en tu lista.
+                2. Gestionar tareas: Cada tarea tiene botones para marcarla como completada, editarla o eliminarla.
+                3. Guardar tu progreso: Las tareas se almacenan automáticamente en tu navegador, por lo que no
+                perderás
+                tus listas si cierras la página.                
+            </p>
+            <p>
+                🎯 TuLista está pensada para ayudarte a mantener el enfoque, reducir el estrés y lograr tus
+                objetivos.
+                ¡Empieza ahora y toma el control de tu tiempo!                                
+            </p>
         </div>
     </main>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"
