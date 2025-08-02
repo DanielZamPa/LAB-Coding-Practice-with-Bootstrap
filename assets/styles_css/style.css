@@ -4,3 +4,6 @@ main{
 img{
     height: 50px;
 }
+.botonAgregarT{
+    width: max-content;
+}
